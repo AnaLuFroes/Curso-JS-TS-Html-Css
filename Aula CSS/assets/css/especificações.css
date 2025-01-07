@@ -1,0 +1,41 @@
+/**
+Regra de aplicação, irá checar primeiro:
+
+-Especificidade: ID   Classes, atributos e pseudo-classes   Elementos e pseudo-elemento
+-Empate: Caso empate as regras
+-Style: Caso utilize esse atributo no HTML, ele ganha da especificidade e empate
+    (Style não ganha apenas da palavra !Important)
+-!Important: Caso utilize essa palavra, essa regra que será aplicada
+
+
+!Important
+    Obs: sempre que utilizar na regra a palavra Important, essa palavra vai
+    força o navegador a aplicar o que você estiver falando. 
+*/
+
+body#b p#p.p {
+    background: powderblue !important;
+
+}
+
+#p {
+    background: lightblue;
+}
+
+#p.p {
+    background: yellow;
+
+}
+
+p#p.p {
+    background: deepskyblue;
+
+}
+
+#b p#p.p {
+    background: darkcyan;
+
+}
+
+
+
