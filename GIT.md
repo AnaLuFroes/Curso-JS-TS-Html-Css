@@ -91,3 +91,8 @@ Se você está começando do zero, aqui está o conjunto completo de comandos pa
 4 - git commit -m "Mensagem descritiva do commit"
 5 - git push -u origin main
 ```
+
+## Cores
+Verde - Novos Arquivos ou Pastas
+Azul - Arquivos Modificados
+Laranja - Arquivos prontos para serem enviados para o repositório remoto.
